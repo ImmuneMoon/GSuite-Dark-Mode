@@ -1,0 +1,25 @@
+/* styles\dark.css */
+
+/* Applies dark mode only when the toggle is active */
+html[data-gsuite-dark="true"] {
+    /* Lowering invert to 90% turns white backgrounds into a soft dark grey */
+    filter: invert(97%) hue-rotate(180deg) brightness(100%) contrast(90%) !important;
+    
+    /* A fallback background just in case the page is transparent */
+    background-color: #131314 !important; 
+}
+
+/* RE-INVERT elements that should look normal (images, videos, profile pics) */
+html[data-gsuite-dark="true"] img,
+html[data-gsuite-dark="true"] video,
+html[data-gsuite-dark="true"] iframe,
+html[data-gsuite-dark="true"] canvas.docs-ui-unprintable,
+html[data-gsuite-dark="true"] [role="img"],
+html[data-gsuite-dark="true"] [style*="background-image"] {
+    filter: invert(100%) hue-rotate(180deg) !important;
+}
+
+/* Fix specific Google Suite artifacts (like the page border in Docs) */
+html[data-gsuite-dark="true"] .kix-page-paginated {
+    box-shadow: 0 0 0 1px #555 !important;
+}
