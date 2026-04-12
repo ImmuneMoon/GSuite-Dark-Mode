@@ -9,6 +9,7 @@ A lightweight, privacy-focused browser extension that brings a beautiful, eye-fr
 
 ## 📂 Project Structure
 
+```
 📁 G-Suite-Dark-Mode/
 ├── 📄 manifest.json         # Extension configuration and permissions
 ├── 📄 popup.html            # The extension's UI menu
@@ -19,6 +20,7 @@ A lightweight, privacy-focused browser extension that brings a beautiful, eye-fr
 │   ├── 📄 dark.css          # The core CSS engine for the smart invert logic
 │   └── 📄 popup_styles.css  # Styling for the extension menu
 └── 📁 images/               # Icons and donation button assets
+```
 
 ## 🛠️ Installation for Developers / Testing
 
