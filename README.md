@@ -1,4 +1,11 @@
+# G-Suite Dark Mode
+
 A lightweight, privacy-focused browser extension that brings a beautiful, eye-friendly dark mode to Google Docs. Created by **Fulllion Creative Works**.
+
+## 📥 Install
+
+* [Chrome Web Store](https://chromewebstore.google.com/detail/g-suite-dark-mode/jkagjbekbcbclacgfpjhdbmkdlgdgiop) for Chrome, Edge, and Brave
+* [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/g-suite-dark-mode/)
 
 ## 🌟 Features
 
